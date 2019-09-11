@@ -12,5 +12,6 @@ ghs_balance = get_ghs_balance(USER_ID)
 print(ghs_balance)
 
 # Estimate amount after exchange
-amount = get_amount("GHS5", "BTC", ghs_balance)
-print(amount)
+for coin in coins:
+    amount = get_amount("GHS5", coin, ghs_balance)
+    print(amount)
