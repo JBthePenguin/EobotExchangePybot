@@ -2,4 +2,4 @@ env/
 
 eobot_api/__pycache__/
 
-config/__pycache__/
+config/
