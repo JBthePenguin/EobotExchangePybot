@@ -1,7 +1,7 @@
 from eobot_api.coins import get_coins
 from eobot_api.user import get_ghs_balance
 from eobot_api.exchange import get_amount
-from config.config import USER_ID
+from config.real_config import USER_ID
 
 # Coins
 coins = get_coins()

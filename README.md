@@ -15,7 +15,7 @@ Install all necessary dependencies ([eobot-py](https://github.com/rickdenhaan/eo
 (env)$ pip install -r requirements.txt
 ```
 ### Settings
-In *config/config.py*, write your eobot user id, the email that register on eobot and the API Key (you can found it in your profile page on eobot website):
+Create a file *config/real_config.py*, write your eobot user id, the email that register on eobot and the API Key (you can found it in your profile page on eobot website) like in *config/config_example*:
 ``` python
 USER_ID = 1234567  # Your eobot user id
 EMAIL = "youremail@example.com"  # Your email

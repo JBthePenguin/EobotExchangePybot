@@ -4,5 +4,5 @@ eobot_api/__pycache__/
 
 config/__pycache__/
 
-config/config.py
+config/real_config.py
 
