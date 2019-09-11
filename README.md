@@ -10,9 +10,16 @@ $ cd EobotExchangePybot
 $ virtualenv -p python3 env
 $ source env/bin/activate
 ```
-Install all necessary dependencies ([httpx](https://www.encode.io/httpx/)):
+Install all necessary dependencies ([eobot-py](https://github.com/rickdenhaan/eobot-py)):
 ``` shell
 (env)$ pip install -r requirements.txt
+```
+### Settings
+In *config/config.py*, write your eobot user id, the email that register on eobot and the API Key (you can found it in your profile page on eobot website):
+``` python
+USER_ID = 1234567  # Your eobot user id
+EMAIL = "youremail@example.com"  # Your email
+PASSWORD = "aa11aa11aa11aa11aa11"  # Your API Key
 ```
 ## USING
 Start application:
